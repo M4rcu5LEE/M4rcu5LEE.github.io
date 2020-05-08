@@ -160,9 +160,16 @@ body,td,th {
    <div class="content">
     <h1 style="font-style: normal; font-weight: 400; font-size: 300%;"><strong>Video Tasks</strong></h1>
     <p><strong style="font-size: 100%">Task 1:</strong></p>
-    <iframe width="720" height="420"
-      source src="https://highvale-my.sharepoint.com/cdf240be-0542-4bfd-8a26-4010eb781933" type="video/mp4">
-    </iframe>
+    <video width="640" height="360" controls>
+      <source src="VideoTasks/VideoTask1 V2.mp4"  type="video/mp4" />
+      <source src="VideoTasks/VideoTask1 V2.mp4"  type="video/ogg" />
+      <object width="640" height="360" type="application/x-shockwave-flash" data="__FLASH__.SWF">
+        <param name="movie" value="__FLASH__.SWF" />
+        <param name="flashvars" value="controlbar=over&amp;image=__POSTER__.JPG&amp;file=__VIDEO__.MP4" />
+        <img src="__VIDEO__.JPG" width="640" height="360" alt="__TITLE__"
+		     title="No video playback capabilities, please download the video below" />
+      </object>
+    </video>
     <p>&nbsp;</p>
 	<p><strong style="font-size: 90%">Courtesy:</strong></p>
 	<ul style="list-style-type:none;"> 
